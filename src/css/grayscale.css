@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: #ce0000;
+  color: #ff5151;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -47,7 +47,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #a00000;
+  color: #a84848;
 }
 .light {
   font-weight: 400;
@@ -258,16 +258,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #ce0000;
-  color: #ce0000;
+  border: 1px solid #ff5151;
+  color: #ff5151;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #ce0000;
+  border: 1px solid #ff5151;
   outline: none;
   color: black;
-  background-color: #ce0000;
+  background-color: #ff5151;
 }
 ul.banner-social-buttons {
   margin-top: 0;
