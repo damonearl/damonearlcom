@@ -1,224 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Damon Earl - Automotive Software Engineer</title>
-
-    
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <meta name="description" content="Damon Earl - Director of Product Development at Integrated Engineering, specializing in automotive technology, security engineering, and DevOps">
+    <meta name="author" content="Damon Earl">
+    <title>Damon Earl | Director of Product Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/grayscale.css">
 </head>
-
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-check-circle-o"></i> <span class="light">Damon</span> Earl
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Passion</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#download">History</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Connect</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+    <nav class="nav" id="nav">
+        <div class="container nav-inner">
+            <a href="#top" class="nav-brand">
+                <span class="nav-brand-first">Damon</span> Earl
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <!-- /.container -->
     </nav>
 
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Damon Earl</h1>
-                        <p class="intro-text">An automotive enthusiast, security engineer,
-                            <br>and developer operations (DevOps) manager.</p>
-                        <a href="#about" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated"></i>
-                        </a>
+    <!-- Hero -->
+    <section class="hero" id="top">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-label">Director of Product Development</div>
+            <h1 class="hero-name">Damon<br>Earl</h1>
+            <p class="hero-tagline">Automotive Technology &middot; Security Engineering &middot; Product Leadership</p>
+            <div class="hero-cta">
+                <a href="#experience" class="btn btn-primary">View Experience</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">01</span>
+                <h2 class="section-title">About</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">Technology leader with 10+ years driving product development at the intersection of automotive performance and software engineering.</p>
+                    <p>Growing up in an engine refurbishing shop ignited a lifelong passion for automotive technology. Today, I lead all product development teams at <a href="https://performancebyie.com">Integrated Engineering</a>&mdash;spanning software engineering, powertrain calibration, hardware engineering, and IT. From launching the <a href="https://drivexodus.com">Xodus</a> brand to architecting mobile ECU calibration tools, I thrive on building products that push automotive performance forward.</p>
+                    <p>My background blends hands-on reverse engineering and embedded systems with strategic leadership, endpoint security, and scalable development operations.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Location</span>
+                        <span class="detail-value">Salt Lake City, UT</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Current Role</span>
+                        <span class="detail-value">Director of Product Development</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Experience</span>
+                        <span class="detail-value">10+ Years</span>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
-    <!-- About Section -->
-    <section id="about" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Damon's Passions</h2>
-                <p>After growing up in an engine refurbishing shop, and spending my free time modifying video games.  I found my passion inside of the automotive world.</p>
-                <p>I'm currently working at <a href="https://www.performancebyie.com/">Integrated Engineering</a>, developing an at home and dealer flash tool.  This position has accelerated me into learning many aspects of project management, which I've learned to love architecture of developer operations, making a system that increases efficiency of developers brings me excitement.</p>
-                <p>Part of my hobbies, and employment obligations, has brought me knowledge on reverse engineering.  Loading embedded processor files into IDA Pro has become a daily norm.  In order to fully optimize any modifications and calibration tables, I've learned and developed many development tools including WinOLS, Stock VAG diagnosis software, and operation of dynamometers.</p>
+    <!-- Experience -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">02</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="timeline">
+
+                <!-- Integrated Engineering -->
+                <div class="timeline-item timeline-item--parent">
+                    <div class="timeline-date">
+                        <span class="timeline-date-range">2015 &mdash; Present</span>
+                        <span class="timeline-date-duration">10+ years</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-company">Integrated Engineering</div>
+                        <div class="timeline-company-meta">Salt Lake City, Utah &middot; Full-time</div>
+
+                        <div class="role">
+                            <div class="role-title">Director of Product Development</div>
+                            <div class="role-date">Apr 2025 &mdash; Present</div>
+                            <p class="role-desc">Lead and manage all product development teams, including software engineering, powertrain calibration, hardware engineering, and IT teams.</p>
+                        </div>
+
+                        <div class="role">
+                            <div class="role-title">Software Engineering Manager</div>
+                            <div class="role-date">Oct 2023 &mdash; Apr 2025</div>
+                            <p class="role-desc">Managed and led the technology department including software engineering, powertrain calibration, and information systems.</p>
+                            <ul class="role-list">
+                                <li>Aided in launching the <a href="https://drivexodus.com">Xodus</a> brand</li>
+                                <li>Developed and released the first VAG EA839 engine flex fuel implementation</li>
+                                <li>Architected the performance software development cycle</li>
+                            </ul>
+                        </div>
+
+                        <div class="role">
+                            <div class="role-title">Chief Technology Officer</div>
+                            <div class="role-date">Oct 2021 &mdash; Oct 2023</div>
+                            <p class="role-desc">Grew the technology team including overseas resources for Shopify and NetSuite development.</p>
+                            <ul class="role-list">
+                                <li>Built POWERlink Mobile&mdash;delivering performance calibrations via smartphone and OBD2 dongle</li>
+                                <li>Participated in EOS implementation as part of the leadership team</li>
+                                <li>Implemented endpoint management, security, and employee phishing training programs</li>
+                            </ul>
+                        </div>
+
+                        <div class="role">
+                            <div class="role-title">Software Engineer / DevOps</div>
+                            <div class="role-date">2015 &mdash; Oct 2021</div>
+                            <p class="role-desc">Development and operations of dealer and at-home flash tools for automotive ECU applications.</p>
+                            <ul class="role-list">
+                                <li>Reverse engineering and implementation of secure automotive protocols</li>
+                                <li>Development of secure file distribution systems</li>
+                                <li>Design, prototyping, sourcing, and manufacturing of PCB hardware and firmware</li>
+                                <li>Developer operations architecture and CI/CD pipeline management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Jacobs -->
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="timeline-date-range">Mar &mdash; Jun 2015</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-company">Jacobs Engineering</div>
+                        <div class="timeline-role">Software Engineer I</div>
+                        <p class="timeline-desc">Custom SharePoint software development, maintenance, and migration from 2007 to newer versions.</p>
+                    </div>
+                </div>
+
+                <!-- Lighthouse Health -->
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="timeline-date-range">Jan 2014 &mdash; Mar 2015</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-company">Lighthouse Health</div>
+                        <div class="timeline-role">Software Developer</div>
+                        <p class="timeline-desc">Development of new web applications and features, as well as maintenance and redesign of existing web features.</p>
+                    </div>
+                </div>
+
+                <!-- Goldman Sachs -->
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="timeline-date-range">May &mdash; Aug 2013</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-company">Goldman Sachs</div>
+                        <div class="timeline-role">Summer Technology Analyst</div>
+                        <p class="timeline-desc">Software design, development process design, integration into legacy systems, and interactions between multiple departments.</p>
+                    </div>
+                </div>
+
+                <!-- Focus Services -->
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="timeline-date-range">Oct 2007 &mdash; Aug 2010</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-company">Focus Services</div>
+                        <div class="timeline-role">Customer Service Representative</div>
+                        <p class="timeline-desc">Providing billing, sales, and technical support to existing customers, and signing up new clients for service.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-        <div class="download-section">
-            <div class="container">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>History - Employment</h2>
-                    <p>
-                        <h3>Integrated Engineering (2015-Present)</h3>
-                        <b>Software Engineer/Dev Ops</b> - Development and operations of a dealer and at home flash tool for automotive applications<br/>
-                        <ul>
-                            <li>Reverse engineering and implementation of secure protocols</li>
-                            <li>Development of secure file distributions</li>
-                            <li>Design, Prototyping, Sourcing, and Manufacturing of PCB hardware and firmware</li>
-                            <li>User experience optimization</li>
-                        </ul>
-                    </p>
-                    <p>
-                        <h3>Jacobs (2015)</h3>
-                        <b>Software Engineer</b> - Maintenance and implementation of features on Sharepoint 2007 Sites<br/>
-                        <ul>
-                            <li>Maintenance of Customized Sharepoint</li>
-                            <li>Internal Tool Development for Active Directory Management</li>
-                            <li>Migration of Sharepoint 2007 to Sharepoint 2013</li>
-                        </ul>
-                    </p>
-                    <p>
-                        <h3>Lighthouse Health Inc. (2014-2015)</h3>
-                        <b>Software Engineer</b> - Development of ASP.NET site and server administration<br/>
-                        <ul>
-                            <li>Development of client desired features in addition to existing software</li>
-                            <li>Development of new software from scratch</li>
-                            <li>Maintenance and complete overhaul of existing software</li>
-                            <li>Administration of multiple servers</li>
-                        </ul>
-                    </p>
-                    <p>
-                        <h3>Goldman Sachs (2013)</h3>
-                        <b>Summer Technology Analyst</b> - Automation of calculations and account transfers<br/>
-                        <ul>
-                            <li>Development of complete software project</li>
-                            <li>Organizing meetings with both developers and end-users</li>
-                            <li>Database manipulation</li>
-                            <li>Presentation about project and experience</li>
-                            <li>Networking throughout a huge corporation</li>
-                        </ul>
-                    </p>
-
-                    <h2>History - Education</h2>
-                    <p>
-                        <h3>Bachelors of Science - Computer Science (2016)</h3>
-                        <b>University of Utah</b> - Salt Lake City, Utah<br/>
-                    </p>
-                    <p>
-                        <h3>Associates of Science - Computer Science (2012)</h3>
-                        <b>Salt Lake Community College</b> - Taylorsville, Utah<br/>
-                    </p>
+    <!-- Skills -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">03</span>
+                <h2 class="section-title">Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Leadership &amp; Management</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Product Development</span>
+                        <span class="skill-tag">Team Leadership</span>
+                        <span class="skill-tag">EOS Implementation</span>
+                        <span class="skill-tag">Cross-Functional Management</span>
+                        <span class="skill-tag">Project Management</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Automotive &amp; Embedded</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ECU Calibration</span>
+                        <span class="skill-tag">Embedded Firmware</span>
+                        <span class="skill-tag">PCB Design</span>
+                        <span class="skill-tag">Powertrain Calibration</span>
+                        <span class="skill-tag">WinOLS</span>
+                        <span class="skill-tag">VAG Diagnostics</span>
+                        <span class="skill-tag">Flex Fuel Systems</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Security &amp; Reverse Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">IDA Pro</span>
+                        <span class="skill-tag">Reverse Engineering</span>
+                        <span class="skill-tag">Secure Protocols</span>
+                        <span class="skill-tag">Endpoint Security</span>
+                        <span class="skill-tag">Phishing Prevention</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Software &amp; Infrastructure</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">CI/CD Pipelines</span>
+                        <span class="skill-tag">DevOps</span>
+                        <span class="skill-tag">Shopify</span>
+                        <span class="skill-tag">NetSuite</span>
+                        <span class="skill-tag">Full-Stack Development</span>
+                        <span class="skill-tag">Databases</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Connect</h2>
-                <p>Feel free to email with any questions or presentation of employment opportunities.</p>
-                <p><a href="mailto:damon.earl@gmail.com">damon.earl@gmail.com</a>
-                </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://www.facebook.com/damon.earl.1" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/damon-earl-0130b658/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/damonearl" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="http://stackoverflow.com/users/3958197/damon-e" class="btn btn-default btn-lg"><i class="fa fa-stack-  overflow fa-fw"></i> <span class="network-name">StackOverflow</span></a>
-                    </li>
-                </ul>
+    <!-- Education -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">04</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-degree">Bachelor of Science</div>
+                    <div class="education-field">Computer Science</div>
+                    <div class="education-school">University of Utah</div>
+                    <div class="education-location">Salt Lake City, Utah</div>
+                    <div class="education-year">2016</div>
+                </div>
+                <div class="education-card">
+                    <div class="education-degree">Associate of Science</div>
+                    <div class="education-field">Computer Science</div>
+                    <div class="education-school">Salt Lake Community College</div>
+                    <div class="education-location">Taylorsville, Utah</div>
+                    <div class="education-year">2012</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">05</span>
+                <h2 class="section-title">Contact</h2>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">Interested in working together or have a question? Feel free to reach out.</p>
+                <a href="mailto:damon.earl@gmail.com" class="contact-email">damon.earl@gmail.com</a>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/damon-earl-0130b658/" class="social-link" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/damonearl" class="social-link" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/damon.earl.1" class="social-link" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Damon Earl 2017</p>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Damon Earl</p>
         </div>
     </footer>
 
-    <!-- jQuery -->
-    <script async src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script async src="js/grayscale.js"></script>
-
-    <noscript id="deferred-styles">
-        <!-- Bootstrap Core CSS -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom Fonts -->
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-        <!-- Theme CSS -->
-        <link href="css/grayscale.css" rel="stylesheet">
-    </noscript>
-    <script>
-      var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-      else window.addEventListener('load', loadDeferredStyles);
-    </script>
+    <script src="js/grayscale.js"></script>
 </body>
 </html>
